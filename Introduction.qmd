@@ -143,5 +143,5 @@ data <- left_join(data, indv_gt) %>%
 #Rename a column
   rename(gt_count = count)
 #Look at data
-hist(num_gt$gt_abundance, main = "", xlab = "Game trails_weighted by age")
+hist(num_gt$gt_abundance, main = "", xlab = "Game trails_weighted by trail age")
 ```
